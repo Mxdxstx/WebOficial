@@ -28,20 +28,20 @@ header{
     text-transform: none;
 }
 header, .main, footer{
-    width: 65%;
+    width: 85%;
     max-width: 1200px;
     margin: 30px auto;
     padding: 30px;
     background-color: var(--fondoOscuro);
 }
 header img{
-    width: 200px; 
+    width: 12rem; 
     border-radius: 50%;
     box-shadow: 3px 3px 0px var(--colorFuHead);
     margin-left: 80%;
 }
 h1{
-    font-size: 40px;
+    font-size: 2rem;
     margin-top: -150px;
     letter-spacing: 3px;
 }
