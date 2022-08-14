@@ -33,10 +33,11 @@ header{
 }
 header, .main{
     width: 60%;
+    max-width: 1000px;
     margin:auto;
     background-color: var(--fondoOscuro);
     text-shadow: 2px 2px 2px #000;
-}
+} 
 header .titulo{
     font-size: 40px;
     letter-spacing: 4px;
@@ -88,6 +89,37 @@ header h2{
     margin: auto;
     text-shadow: none;
 }
+
+.social_bar{
+    position:fixed;
+    left:0;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 100;
+    font-size: 1.5rem;
+}
+.icon{
+    color: var(--fondoClaro);
+    text-decoration: none;
+    padding: .7rem;
+    display:flex;
+    transition: all .5s;
+
+}
+.icon-facebook{background: rgb(35, 46, 150);}
+.icon-youtube{background: rgb(250, 7, 7);}
+.icon-github{background: rgb(0, 0, 0);}
+.icon-linkedin{background: rgb(67, 84, 236);}
+.icon:first-child{border-radius: 0 1rem 0 0;}
+.icon:last-child{border-radius: 0 0 1rem 0;}
+.icon:hover{
+    padding-left: 3rem;
+    border-radius:0 1rem 1rem 0;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .42);
+}
+
 /* >>Cards */
 .main .container .card{
     width: var(--cardWidth);
