@@ -23,6 +23,7 @@
 body{
     margin:0;
     padding:0;
+    box-sizing: border-box;
     font-family: var(--fuentePrincipal);
     background: var(--fondoOscuro);
 }
@@ -30,13 +31,14 @@ body{
 /*ENCABEZADO*/
 header{
     color: var(--colorFuCl);
+    padding: 20px;
 }
 header, .main{
-    width: 60%;
+    margin: auto;
     max-width: 1000px;
-    margin:auto;
     background-color: var(--fondoOscuro);
     text-shadow: 2px 2px 2px #000;
+
 } 
 header .titulo{
     font-size: 40px;
@@ -49,22 +51,22 @@ header h2{
     font-size: 20px;
     letter-spacing: 2px;
 }
-.linea{
+.linea1{
     padding: 5px;
     background: var(--fondoClaro2);
     width: 100%;
+    overflow: hidden;
 }
 
 /*MAIN*/
 .main{
     color: var(--colorFuCl);
-    padding: 120px;
+    padding: 60px;
     text-align: left;
 }
 .presentacion{
 
     font-size: 15px;
-    text-align: justify;
     margin-bottom: 100px;
 }
 .presentacion ul{
@@ -97,7 +99,7 @@ header h2{
     flex-direction: column;
     align-items: flex-start;
     z-index: 100;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 .icon{
     color: var(--fondoClaro);
@@ -151,6 +153,7 @@ header h2{
 footer{
         background: var(--fondoClaro2);
         text-align: center;
-        padding: 10px 0px;
-        text-shadow: 0 0 0 ;
+        width: 100%;
+        overflow: hidden;
+        padding: 5px;
 }
