@@ -41,7 +41,7 @@ body {
 }
 
 .menu ul li:hover {
-    background: var(--colorFuOsc);
+    background: var(--fondoOscuro);
     color: var(--colorFuCl);
 }
 
