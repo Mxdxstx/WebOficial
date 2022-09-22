@@ -29,10 +29,29 @@ body {
 /*menu*/
 
 .menu {
-    padding: 10px;
     background: var(--colorFuCl);
     display: flex;
-    list-style: disc;
+    margin: 0;
+    font-weight: 500;
+}
+
+.menu ul li {
+    padding: 15px;
+    display: inline-block;
+}
+
+.menu ul li:hover {
+    background: var(--colorFuOsc);
+    color: var(--colorFuCl);
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.contacto {
+    padding: 15px;
 }
 
 
