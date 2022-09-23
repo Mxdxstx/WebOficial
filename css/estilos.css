@@ -43,6 +43,7 @@ body {
 .menu ul li:hover {
     background: var(--fondoOscuro);
     color: var(--colorFuCl);
+    cursor:pointer;
 }
 
 .menu ul {
